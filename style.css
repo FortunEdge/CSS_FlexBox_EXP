@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.flex-grid-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-flow: row wrap;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1;
+    min-width: 300px;
+}
+
+.flex-item {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.flex-item > img {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+.flex-item > p {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
